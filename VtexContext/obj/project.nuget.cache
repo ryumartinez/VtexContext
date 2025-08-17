@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xZf9vKvVfgc=",
+  "success": true,
+  "projectFilePath": "/home/ryumartinez/AAGitRepos/VtexContext/VtexContext/VtexContext.csproj",
+  "expectedPackageFiles": [
+    "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.5/microsoft.aspnetcore.app.ref.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
