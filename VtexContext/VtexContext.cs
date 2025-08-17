@@ -49,7 +49,7 @@ public class VtexContext
         return collection;
     }
 
-    public async Task SetCollectionProductsAsync(IEnumerable<Product> products)
+    public async Task SetProductsToCollectionAsync(IEnumerable<Product> products)
     {
         var serializer = new XmlSerializer(typeof(IEnumerable<Product>));
    
