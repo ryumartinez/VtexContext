@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2POHmpn6/2k=",
+  "dgSpecHash": "OuyG1z2Jmmw=",
   "success": true,
-  "projectFilePath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
+  "projectFilePath": "/home/ryumartinez/AAGitRepos/VtexContext/Api/Api.csproj",
   "expectedPackageFiles": [
     "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.authentication/2.3.0/microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.3.0/microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
@@ -20,6 +20,7 @@
     "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.http.features/2.3.0/microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.identity/2.3.1/microsoft.aspnetcore.identity.2.3.1.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/9.0.8/microsoft.aspnetcore.identity.entityframeworkcore.9.0.8.nupkg.sha512",
+    "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.openapi/9.0.7/microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.webutilities/2.3.0/microsoft.aspnetcore.webutilities.2.3.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.entityframeworkcore/9.0.8/microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.8/microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",
@@ -48,6 +49,7 @@
     "/home/ryumartinez/.nuget/packages/microsoft.extensions.webencoders/8.0.11/microsoft.extensions.webencoders.8.0.11.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.net.http.headers/2.3.0/microsoft.net.http.headers.2.3.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/home/ryumartinez/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.diagnostics.diagnosticsource/10.0.0-preview.7.25380.108/system.diagnostics.diagnosticsource.10.0.0-preview.7.25380.108.nupkg.sha512",

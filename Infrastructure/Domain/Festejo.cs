@@ -11,7 +11,7 @@ public class Festejo
     public string Address { get; set; }
     
     public ICollection<Agasajado> Agasajados { get; set; }
-    public ICollection<User> Owners { get; set; }
+    public ICollection<ApplicationUser> Owners { get; set; }
 
     public DateTime DateFrom { get; set; }
 

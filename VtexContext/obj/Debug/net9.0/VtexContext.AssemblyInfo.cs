@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VtexContext")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d0bf6e01fa3786cd73d15d499826028e4aff8c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+976d2318abdaf05181a39fb6b0037d20394c3dc0")]
 [assembly: System.Reflection.AssemblyProductAttribute("VtexContext")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VtexContext")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

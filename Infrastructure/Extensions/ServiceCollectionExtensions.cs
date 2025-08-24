@@ -1,4 +1,6 @@
 using Infrastructure.Abstractions;
+using Infrastructure.Domain;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Infrastructure.Extensions;
@@ -10,5 +12,7 @@ public static class ServiceInjection
         services.AddHttpClient();
         services.AddKeyedScoped<IProductRepository, VtexProductRepository>("Vtex");
         services.AddKeyedScoped<IProductRepository, SqlProductRepository>("Sql");
+        services.AddIdentity<ApplicationUser, IdentityRole>()
+            .AddEntityFrameworkStores<ApplicationDbContext>();
     }
 }

@@ -285,6 +285,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/9.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.17"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.WebUtilities/2.3.0": {
         "type": "package",
         "dependencies": {
@@ -795,6 +814,19 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.OpenApi/1.6.17": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Win32.Registry/4.5.0": {
         "type": "package",
         "dependencies": {
@@ -950,6 +982,22 @@
             "assetType": "runtime",
             "rid": "browser"
           }
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.3.1",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0-preview.7.25380.108",
+          "Microsoft.Extensions.Http": "10.0.0-preview.7.25380.108"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
         }
       }
     }
@@ -1175,6 +1223,22 @@
         "lib/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "microsoft.aspnetcore.identity.entityframeworkcore.9.0.8.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.OpenApi/9.0.7": {
+      "sha512": "8aG0mkgmA38IDJ0ca5HIpdexKjHXIh0z1kIdw5WyM6CrD4+CEt97UgSwBBBCHG6QQKV0hj2mfkwtEcqrJBcu8g==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/9.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net9.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
     "Microsoft.AspNetCore.WebUtilities/2.3.0": {
@@ -1924,6 +1988,21 @@
         "version.txt"
       ]
     },
+    "Microsoft.OpenApi/1.6.17": {
+      "sha512": "Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
+      "type": "package",
+      "path": "microsoft.openapi/1.6.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.6.17.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
     "Microsoft.Win32.Registry/4.5.0": {
       "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "type": "package",
@@ -2209,14 +2288,17 @@
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.AspNetCore.Identity >= 2.3.1",
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 9.0.8",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.0-preview.7.25380.108",
-      "Microsoft.Extensions.Http >= 10.0.0-preview.7.25380.108"
+      "Infrastructure >= 1.0.0",
+      "Microsoft.AspNetCore.OpenApi >= 9.0.7"
     ]
   },
   "packageFolders": {
@@ -2225,11 +2307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
-      "projectName": "Infrastructure",
-      "projectPath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
+      "projectUniqueName": "/home/ryumartinez/AAGitRepos/VtexContext/Api/Api.csproj",
+      "projectName": "Api",
+      "projectPath": "/home/ryumartinez/AAGitRepos/VtexContext/Api/Api.csproj",
       "packagesPath": "/home/ryumartinez/.nuget/packages/",
-      "outputPath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/",
+      "outputPath": "/home/ryumartinez/AAGitRepos/VtexContext/Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ryumartinez/.nuget/NuGet/NuGet.Config"
@@ -2243,7 +2325,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2262,21 +2348,9 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity": {
+          "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[2.3.1, )"
-          },
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[9.0.8, )"
-          },
-          "Microsoft.Extensions.DependencyInjection.Abstractions": {
-            "target": "Package",
-            "version": "[10.0.0-preview.7.25380.108, )"
-          },
-          "Microsoft.Extensions.Http": {
-            "target": "Package",
-            "version": "[10.0.0-preview.7.25380.108, )"
+            "version": "[9.0.7, )"
           }
         },
         "imports": [
@@ -2297,6 +2371,9 @@
           }
         ],
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
