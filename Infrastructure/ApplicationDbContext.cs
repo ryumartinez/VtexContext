@@ -4,17 +4,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure;
 
-public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+    : IdentityDbContext<ApplicationUser>(options)
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-        : base(options)
-    {
-    }
-
     public DbSet<Festejo> Festejos { get; set; }
     
+    public DbSet<Agasajado> Agasajados { get; set; }
+    
+    public DbSet<Product>  Products { get; set; }
+    
+    public DbSet<ProductCollection>  ProductCollections { get; set; }
+    
     public DbSet<OwnershipRequest> OwnershipRequests { get; set; }
-
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
