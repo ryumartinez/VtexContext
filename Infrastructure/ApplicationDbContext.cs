@@ -12,6 +12,9 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     }
 
     public DbSet<Festejo> Festejos { get; set; }
+    
+    public DbSet<OwnershipRequest> OwnershipRequests { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
