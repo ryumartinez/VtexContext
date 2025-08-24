@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ryumartinez/AAGitRepos/VtexContext/VtexContext/VtexContext.csproj": {}
+    "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/home/ryumartinez/AAGitRepos/VtexContext/VtexContext/VtexContext.csproj": {
+    "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ryumartinez/AAGitRepos/VtexContext/VtexContext/VtexContext.csproj",
-        "projectName": "VtexContext",
-        "projectPath": "/home/ryumartinez/AAGitRepos/VtexContext/VtexContext/VtexContext.csproj",
+        "projectUniqueName": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/home/ryumartinez/.nuget/packages/",
-        "outputPath": "/home/ryumartinez/AAGitRepos/VtexContext/VtexContext/obj/",
+        "outputPath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ryumartinez/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.0-preview.7.25380.108, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[10.0.0-preview.7.25380.108, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

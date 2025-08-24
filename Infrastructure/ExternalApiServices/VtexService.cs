@@ -1,20 +1,20 @@
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using System.Text;
-using System.Xml.Linq;
 using System.Xml.Serialization;
+using Infrastructure.Models;
 using VtexContext.Models;
 
-namespace VtexContext;
+namespace Infrastructure.ExternalApiServices;
 
-public class VtexContext
+public class VtexService
 {
-    private readonly HttpClient _httpClient;
+     private readonly HttpClient _httpClient;
     private readonly string _vtexSearchBaseUrl = "";
     private readonly string _vtexCreateCollectionUrl = "";
     private readonly string _vtexAddProductosToCollectionUrl = "";
     private readonly int _suggestedProductsCollectionId = 162;
 
-    public VtexContext(HttpClient httpClient)
+    public VtexService(HttpClient httpClient)
     {
         _httpClient = httpClient;
     }
