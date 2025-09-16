@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2POHmpn6/2k=",
+  "dgSpecHash": "Nw09jkygfqY=",
   "success": true,
   "projectFilePath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "/home/ryumartinez/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.8/microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.8/microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.8/microsoft.entityframeworkcore.relational.9.0.8.nupkg.sha512",
+    "/home/ryumartinez/.nuget/packages/microsoft.extensions.apidescription.client/0.3.0-preview7.19365.7/microsoft.extensions.apidescription.client.0.3.0-preview7.19365.7.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.8/microsoft.extensions.caching.abstractions.9.0.8.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.extensions.caching.memory/9.0.8/microsoft.extensions.caching.memory.9.0.8.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.extensions.configuration/10.0.0-preview.7.25380.108/microsoft.extensions.configuration.10.0.0-preview.7.25380.108.nupkg.sha512",
@@ -49,6 +50,9 @@
     "/home/ryumartinez/.nuget/packages/microsoft.net.http.headers/2.3.0/microsoft.net.http.headers.2.3.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "/home/ryumartinez/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/home/ryumartinez/.nuget/packages/nswag.apidescription.client/13.0.5/nswag.apidescription.client.13.0.5.nupkg.sha512",
+    "/home/ryumartinez/.nuget/packages/nswag.msbuild/13.0.5/nswag.msbuild.13.0.5.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.buffers/4.6.0/system.buffers.4.6.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.diagnostics.diagnosticsource/10.0.0-preview.7.25380.108/system.diagnostics.diagnosticsource.10.0.0-preview.7.25380.108.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.security.accesscontrol/4.5.0/system.security.accesscontrol.4.5.0.nupkg.sha512",
@@ -56,7 +60,20 @@
     "/home/ryumartinez/.nuget/packages/system.security.cryptography.xml/8.0.2/system.security.cryptography.xml.8.0.2.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
     "/home/ryumartinez/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.7/microsoft.aspnetcore.app.ref.9.0.7.nupkg.sha512"
+    "/home/ryumartinez/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 12.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/Infrastructure.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
 }

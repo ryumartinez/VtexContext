@@ -1,0 +1,13 @@
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.AssemblyReference.cache
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfoInputs.cache
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.AssemblyInfo.cs
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.csproj.CoreCompileInputs.cache
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.sourcelink.json
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/bin/Debug/net9.0/Infrastructure.deps.json
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/bin/Debug/net9.0/Infrastructure.dll
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/bin/Debug/net9.0/Infrastructure.pdb
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.dll
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/refint/Infrastructure.dll
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/Infrastructure.pdb
+/home/ryumartinez/AAGitRepos/VtexContext/Infrastructure/obj/Debug/net9.0/ref/Infrastructure.dll
