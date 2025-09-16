@@ -10,7 +10,7 @@ public static class ServiceInjection
     public static void ConfigureServices(IServiceCollection services)
     { 
         services.AddHttpClient();
-        services.AddHttpClient<Infrastructure.openapi_specClient>(client =>
+        services.AddHttpClient<Infrastructure.VtexOrdersOpenApiClient>(client =>
         {
             // Set the base address from your configuration
             client.BaseAddress = new Uri("BaseUrl");

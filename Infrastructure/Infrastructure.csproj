@@ -13,6 +13,6 @@
     <PackageReference Include="NSwag.ApiDescription.Client" Version="13.0.5" />
   </ItemGroup>
   <ItemGroup>
-    <OpenApiReference Include="openapi-spec.json" />
+    <OpenApiReference Include="VtexOrdersOpenApi.json" />
   </ItemGroup>
 </Project>
